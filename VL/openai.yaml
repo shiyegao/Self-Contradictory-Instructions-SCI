@@ -1,0 +1,5 @@
+OPENAI_KEY: your_openai_key
+MODEL_NAME: 'your desired model'
+OPENAI_API_BASE: 'your api base'
+
+MAX_RETRY : 10
