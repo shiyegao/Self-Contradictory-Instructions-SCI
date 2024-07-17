@@ -1,6 +1,10 @@
-# SCI automatic generation
+# Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions
 
 ## Introduction
+Official github repo of the ECCV24 paper, "Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions".
+
+- Website: https://sci-jingao.pages.dev
+- Dataset: https://huggingface.co/datasets/sci-benchmark/self-contradictory
 
 This repo provides the code for generating Self-Contradictory-Instruction(**SCI**) dataset.
 
@@ -97,9 +101,7 @@ MAX_RETRY : 10
 ```
 
 
-
-
-# LMM Evaluation
+## LMM Evaluation
 
 Many LMMs are tested on SCI in our paper. You can access them through APIs or local deployment.
 
@@ -116,3 +118,7 @@ Many LMMs are tested on SCI in our paper. You can access them through APIs or lo
 [LLaMA-Adapter v2](https://github.com/OpenGVLab/LLaMA-Adapter)
 
 [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
+
+## Citation
+
+If our code or models help your work, please cite our paper.
