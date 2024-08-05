@@ -3,7 +3,7 @@
 ## Introduction
 Official github repo of the ECCV24 paper, "Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions".
 
-- Website: https://sci-jingao.pages.dev
+- Website: https://selfcontradiction.github.io
 - Dataset: https://huggingface.co/datasets/sci-benchmark/self-contradictory
 
 This repo provides the code for generating Self-Contradictory-Instruction(**SCI**) dataset.
