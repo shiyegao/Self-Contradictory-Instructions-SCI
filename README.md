@@ -1,10 +1,10 @@
 # Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions
 
 ## Introduction
-Official github repo of the ECCV24 paper, "Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions".
-
+Official github repo of the ECCV24 paper, "[Dissecting Dissonance: Benchmarking Large Multimodal Models Against Self-Contradictory Instructions](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07483.pdf)".
 - Website: https://selfcontradiction.github.io
 - Dataset: https://huggingface.co/datasets/sci-benchmark/self-contradictory
+    - In the paper, “SCI-Core (1%), SCI-Base (10%), and SCI-All (100%)” denote the small, medium, and full splits of the Hugging Face dataset, respectively.
 
 This repo provides the code for generating Self-Contradictory-Instruction(**SCI**) dataset.
 
@@ -122,3 +122,13 @@ Many LMMs are tested on SCI in our paper. You can access them through APIs or lo
 ## Citation
 
 If our code or models help your work, please cite our paper.
+```
+@inproceedings{gao2024dissecting,
+  title={Dissecting dissonance: Benchmarking large multimodal models against self-contradictory instructions},
+  author={Gao, Jin and Gan, Lei and Li, Yuankai and Ye, Yixin and Wang, Dequan},
+  booktitle={European Conference on Computer Vision},
+  pages={404--420},
+  year={2024},
+  organization={Springer}
+}
+```
